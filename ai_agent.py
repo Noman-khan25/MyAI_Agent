@@ -31,11 +31,9 @@ model_name = st.sidebar.selectbox("Model", ["llama-3.1-8b-instant", "gemma2-9b-i
 max_steps = st.sidebar.slider("Max reasoning steps", 1, 6, 3)
 
 st.markdown("""
-This chatbot can think and use real tools:
-- 🌐 Web Search  
-- 📚 Wikipedia  
-- 🧮 Calculator  
-- 🌍 Translator (English ↔ Urdu)
+🧠This app is an AI-powered multi-tool assistant that can
+  search the web, summarize Wikipedia articles, solve
+  math problems, and translate text between English and Urdu.
 """)
 
 
