@@ -196,3 +196,4 @@ if query:
             answer = ai_agent(client, model=model_name, user_input=query, max_iters=max_steps)
         st.chat_message("assistant").write(answer)
         st.session_state.chat_history.append(("assistant", answer))
+
