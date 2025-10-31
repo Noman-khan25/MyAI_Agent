@@ -5,3 +5,5 @@ duckduckgo-search
 wikipedia
 arxiv
 requests
+deep-translator
+
